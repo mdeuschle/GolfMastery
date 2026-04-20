@@ -11,6 +11,9 @@
 		A89A527D2F95ABB900552D48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89A527C2F95ABB900552D48 /* ContentView.swift */; };
 		A89A527F2F95ABC000552D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A89A527E2F95ABC000552D48 /* Assets.xcassets */; };
 		A89A52822F95ABC000552D48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A89A52812F95ABC000552D48 /* Preview Assets.xcassets */; };
+		A89A528F2F95AECD00552D48 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = A89A528C2F95AECD00552D48 /* Models */; };
+		A89A52902F95AECD00552D48 /* Views in Resources */ = {isa = PBXBuildFile; fileRef = A89A528D2F95AECD00552D48 /* Views */; };
+		A89A52912F95AECD00552D48 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = A89A528E2F95AECD00552D48 /* Data */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		A89A527E2F95ABC000552D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A89A52812F95ABC000552D48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A89A52832F95ABC000552D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A89A528C2F95AECD00552D48 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		A89A528D2F95AECD00552D48 /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
+		A89A528E2F95AECD00552D48 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,9 @@
 		A89A52792F95ABB900552D48 /* GolfMastery */ = {
 			isa = PBXGroup;
 			children = (
+				A89A528E2F95AECD00552D48 /* Data */,
+				A89A528C2F95AECD00552D48 /* Models */,
+				A89A528D2F95AECD00552D48 /* Views */,
 				A89A527A2F95ABB900552D48 /* GolfMasteryApp.swift */,
 				A89A527C2F95ABB900552D48 /* ContentView.swift */,
 				A89A527E2F95ABC000552D48 /* Assets.xcassets */,
@@ -126,8 +135,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A89A528F2F95AECD00552D48 /* Models in Resources */,
 				A89A52822F95ABC000552D48 /* Preview Assets.xcassets in Resources */,
+				A89A52912F95AECD00552D48 /* Data in Resources */,
 				A89A527F2F95ABC000552D48 /* Assets.xcassets in Resources */,
+				A89A52902F95AECD00552D48 /* Views in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
